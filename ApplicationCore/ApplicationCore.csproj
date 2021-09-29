@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>MiniCarStore.ApplicationCore</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Entities\VehicleAdsAggregate\VehicleAds.cs~RF4616c4e0.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ardalis.Specification" Version="4.1.0" />
+  </ItemGroup>
 
 </Project>
