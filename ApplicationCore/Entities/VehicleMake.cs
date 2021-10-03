@@ -1,4 +1,5 @@
-﻿using MiniCarStore.ApplicationCore.Interfaces;
+﻿using Ardalis.GuardClauses;
+using MiniCarStore.ApplicationCore.Interfaces;
 
 namespace MiniCarStore.ApplicationCore.Entities
 {
@@ -8,6 +9,12 @@ namespace MiniCarStore.ApplicationCore.Entities
 
         public VehicleMake(string make)
         {
+            Make = make;
+        }
+
+        public void UpdateDetails(string make)
+        {
+            Guard.Against.NullOrEmpty(make, nameof(make));
             Make = make;
         }
     }
