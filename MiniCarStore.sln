@@ -4,6 +4,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniCarStore", "MiniCarStore\MiniCarStore.csproj", "{1BEFAF18-865E-48E8-A1FB-2CE7C1472DB0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DCF67AC4-4F24-4589-825B-935505061729} = {DCF67AC4-4F24-4589-825B-935505061729}
+		{03B2C1FF-4623-4A31-9D84-BAA9F0274008} = {03B2C1FF-4623-4A31-9D84-BAA9F0274008}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BE7529D1-50DA-4DF1-B805-67798CFF56B2}"
 	ProjectSection(SolutionItems) = preProject

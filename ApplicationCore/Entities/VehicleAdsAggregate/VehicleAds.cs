@@ -35,7 +35,7 @@ namespace MiniCarStore.ApplicationCore.Entities.VehicleAdsAggregate
             Price = price;
             Comment = comment;
             VehicleSpecs = vehicleSpecs;
-            ContactDetails = contactDetails;
+            //ContactDetails = contactDetails;
             IsDealer = isDealer;
             DealerABN = dealerABN;
         }
@@ -46,7 +46,7 @@ namespace MiniCarStore.ApplicationCore.Entities.VehicleAdsAggregate
         public decimal Price { get; private set; }
         public string Comment { get; private set; }
         public VehicleSpecs VehicleSpecs { get; private set; }
-        public ContactDetails ContactDetails { get; private set; }
+        //public ContactDetails ContactDetails { get; private set; }
         public bool IsDealer { get; private set; }
         public string DealerABN { get; private set; }
     }
